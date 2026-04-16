@@ -1,7 +1,7 @@
 # Aula 02 Arquivos
 # ----------------------------------------------------------------------------------------
 # abrir um arquivo para escrita
-with open('arquivo.txt', 'w', encode("utf-8")) as file:
+with open('arquivo.txt', 'w', encode('utf-8')) as file:
     file.write('Olá, Mundo!')
 
 # abrir um arquivo para leitura e escrita
