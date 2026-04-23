@@ -16,7 +16,7 @@ contadordepalavras('meuarquivo.txt')
 
 def concatenadordearquivos(n,m):
     file1 = 'a'
-    file2 = 'b'
+    file2 = 'b'a
     
     with open(n,'r') as a:
         file1 = a.read()
